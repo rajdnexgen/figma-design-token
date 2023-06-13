@@ -664,20 +664,6 @@
     }
   },
   "brand-c": {
-    "color-disabled": {
-      "text": {
-        "value": "{color-base-neutral-light.10}",
-        "type": "color"
-      },
-      "backgroud": {
-        "value": "{color-base-neutral-light.90}",
-        "type": "color"
-      },
-      "border": {
-        "value": "{color-base-neutral-light.20}",
-        "type": "color"
-      }
-    },
     "color-primary": {
       "default": {
         "value": "{color-base-red.60}",
@@ -689,6 +675,70 @@
       },
       "disabled": {
         "value": "{color-base-red.10}",
+        "type": "color"
+      }
+    },
+    "button": {
+      "radius": {
+        "value": "{radius-base.min}",
+        "type": "borderRadius"
+      },
+      "padding": {
+        "left": {
+          "value": "{spacing-base.sm}",
+          "type": "spacing"
+        },
+        "right": {
+          "value": "{spacing-base.sm}",
+          "type": "spacing"
+        }
+      },
+      "height": {
+        "lg": {
+          "value": "36px",
+          "type": "sizing"
+        },
+        "sm": {
+          "value": "24px",
+          "type": "sizing"
+        }
+      },
+      "typography": {
+        "lg": {
+          "value": {
+            "fontFamily": "{font-face-base.sans-serif}",
+            "fontWeight": "{font-weight-base.regular}",
+            "fontSize": "{font-size-label.lg}",
+            "textCase": "none"
+          },
+          "type": "typography"
+        },
+        "sm": {
+          "value": {
+            "fontFamily": "{font-face-base.sans-serif}",
+            "fontWeight": "{font-weight-base.regular}",
+            "fontSize": "{font-size-label.xs}",
+            "textCase": "none"
+          },
+          "type": "typography"
+        }
+      },
+      "font-family": {
+        "value": "{font-face-base.sans-serif}",
+        "type": "fontFamilies"
+      }
+    },
+    "color-disabled": {
+      "text": {
+        "value": "{color-base-neutral-light.10}",
+        "type": "color"
+      },
+      "background": {
+        "value": "{color-base-neutral-light.90}",
+        "type": "color"
+      },
+      "border": {
+        "value": "{color-base-neutral-light.20}",
         "type": "color"
       }
     }
