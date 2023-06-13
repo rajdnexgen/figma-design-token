@@ -663,12 +663,43 @@
       }
     }
   },
+  "brand-c": {
+    "color-disabled": {
+      "text": {
+        "value": "{color-base-neutral-light.10}",
+        "type": "color"
+      },
+      "backgroud": {
+        "value": "{color-base-neutral-light.90}",
+        "type": "color"
+      },
+      "border": {
+        "value": "{color-base-neutral-light.20}",
+        "type": "color"
+      }
+    },
+    "color-primary": {
+      "default": {
+        "value": "{color-base-red.60}",
+        "type": "color"
+      },
+      "hover": {
+        "value": "{color-base-red.70}",
+        "type": "color"
+      },
+      "disabled": {
+        "value": "{color-base-red.10}",
+        "type": "color"
+      }
+    }
+  },
   "$themes": [],
   "$metadata": {
     "tokenSetOrder": [
       "base",
       "brand-a",
-      "brand-b"
+      "brand-b",
+      "brand-c"
     ]
   }
 }
